@@ -1,71 +1,75 @@
 {
-  "name": "Java入门教程",
-  "desc": "这个教程主要配合Java介绍编程的基础知识概念，对学习和备考AP以及入门计算机编程都会很有帮助。",
-  "keywords": ["编程", "基础"],
+  "name": "AP CS A 抱佛脚教程",
+  "desc": "这个教程是帮需要快速完成AP CS A学习备考的同学定制的，并且只有一个目的——拿高分，内附每个知识点的详细解释和教程链接和真题，还有考点比例和拿3、4或5分掌握点说明。如果发现教程内不理解的内容太多，也可以完整学习AP CS A零基础完整知识树。",
+  "keywords": ["编程", "基础","AP","CS","教程"],
   "cover": "cover.png",
-  "tags": ["编程", "基础", "入门"],
+  "tags": ["编程", "基础", "入门","AP","CS","教程"],
   "chapters": [
     {
-      "name": "初入Java编程",
+      "name": "程序结构",
       "content": "Chapter1/Chapter1.md",
       "sections": [
-        {"name":"输入输出"},
-        {"name":"转义"},
-        {"name":"注释"},
-        {"name":"小练习"}
+        {"name":"输出和转义"},
+        {"name":"变量和类型"},
+        {"name":"运算和操作符"},
+        {"name":"判断结构"},
+        {"name":"循环结构"},
+        {"name":"异常"}
       ]
     },
     {
-      "name": "变量和类型",
+      "name": "面向对象编程",
       "content": "Chapter2/Chapter2.md",
       "sections": [
-        {"name":"变量的定义、赋值和读取"},
-        {"name":"给变量起名字"},
-        {"name":"类型及储存方式"},
-        {"name":"运算和操作符"},
-        {"name":"标识符"},
-        {"name":"final变量"},
-        {"name":"小练习"}
+        {"name":"类和对象"},
+        {"name":"方法和参数"},
+        {"name":"引用"},
+        {"name":"继承和多态"},
+        {"name":"接口"}
       ]
     },
     {
-      "name": "if语句——选择判断",
+      "name": "标准类",
       "content": "Chapter3/Chapter3.md",
       "sections": [
-        {"name":"如果…否则如果…否则…"},
-        {"name":"且、或和非"},
-        {"name":"最小化求值原理"},
-        {"name":"德摩根定律"},
-        {"name":"小练习"}
+        {"name":"数学类"},
+        {"name":"Object类"},
+        {"name":"String类"}
       ]
     },
     {
-      "name": "循环",
+      "name": "Array和ArrayList",
       "content": "Chapter4/Chapter4.md",
       "sections": [
-        {"name":"for循环"},
-        {"name":"while循环"},
-        {"name":"for each循环"},
-        {"name":"continue下一循环和break停止循环"},
-        {"name":"小练习"}
+        {"name":"数组"},
+        {"name":"数组列表"},
+        {"name":"二维数组"}
       ]
     },
     {
-      "name": "数学计算",
+      "name": "程序的构建",
       "content": "Chapter5/Chapter5.md",
       "sections": [
-        {"name":"数学函数和常量的使用"},
-        {"name":"随机数的产生"},
-        {"name":"小练习"}
+        {"name":"程序的实现方法"},
+        {"name":"测试调试"}
       ]
     },
     {
-      "name": "异常",
+      "name": "算法及分析",
       "content": "Chapter6/Chapter6.md",
       "sections": [
-        {"name":"发生异常的情况"},
-        {"name":"需要掌握的异常"},
-        {"name":"小练习"}
+        {"name":"递归"},
+        {"name":"排序"},
+        {"name":"搜索"}
+      ]
+    },
+    {
+      "name": "如何快速备考",
+      "content": "Chapter7/Chapter7.md",
+      "sections": [
+        {"name":"刷题方式"},
+        {"name":"做题策略"},
+        {"name":"资源获取"}
       ]
     }
   ]
