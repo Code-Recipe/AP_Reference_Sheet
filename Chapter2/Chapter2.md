@@ -6,7 +6,7 @@
 
 从这里开始学习吧！💖
 
-类和对象（作用域、构造器...）
+类、对象、方法
 ------
 🌟如果发现有不太理解的点的话，**点击蓝色的小标题或文中链接**可以跳转到教程原文哦~🌟
 
@@ -124,16 +124,10 @@ public abstract class Animal{
 }
 ```
 
-### [多态](https://coderecipe.cn/learn/3/4#section-初识多态)
+### [多态（polymorphism）](https://coderecipe.cn/learn/3/4#section-初识多态)
 在Java中，方法调用总是由调用这一方法的对象实际指向的对象类型（也就是在new语句后紧跟着的类型），而不是由这一对象引用的对象类型（也就是在new语句中，实际对象前面的那个类型）来决定的。
 
-例如，在语句
-```java
-Animal puppy = new Dog();
-```
-中，实例对象puppy所引用的类型是Animal，而其实际指向的类型则是Dog。
-
-这个机制，就叫做多态。  
+例如，在语句`Animal puppy = new Dog();`中，实例对象puppy所引用的类型是Animal，而其实际指向的类型则是Dog。这个机制就叫做多态。  
 
 ### [向下转型](https://coderecipe.cn/learn/3/4#section-类型转换)
 把一个子类引用指向父类对象的转型过程，称作向下转型。
@@ -145,10 +139,10 @@ int x = ((GradStudent) student).getID(); //向下转型
 ```
 
 ### [动态绑定](https://coderecipe.cn/learn/3/4#section-动态绑定)
-动态绑定（Dynamic bonding)，指的是，当存在方法重写时，关于调用哪一个实例方法的决定，是在Java程序运行时(run-time)（Java虚拟机JVM实时解析运行Java字节码时）才实时作出的。
+动态绑定（dynamic bonding)，指的是，当存在方法重写时，关于调用哪一个实例方法的决定，是在Java程序运行时(run-time)（Java虚拟机JVM实时解析运行Java字节码时）才实时作出的。
 
 ### [使用`super`调用父类方法](https://coderecipe.cn/learn/3/4#section-使用“super”调用父类)
-如果在子类中，我们对一个方法进行了重写，则重写过的方法默认覆盖过了父类中的同名方法，但若我们就是想使用父类中的，被重写过的，那一个原本的方法，那我们就可以通过使用关键字super来调用被重写过(Overridden)的方法。
+如果在子类中，我们对一个方法进行了重写，则重写过的方法默认覆盖过了父类中的同名方法，但若我们就是想使用父类中的，被重写过的，那一个原本的方法，那我们就可以通过使用关键字super来调用被重写过(overridden)的方法。
 
 比方说：
 ```java
@@ -158,9 +152,7 @@ public class Superclass {
         System.out.println("Printed in Superclass.");
     }
 }
-
 public class Subclass extends Superclass {
-
     // overrides printMethod in Superclass
     public void printMethod() {
         super.printMethod();
@@ -180,18 +172,10 @@ Printed in Subclass.
 ```
 
 ### [使用`super`调用父类构造方法](https://coderecipe.cn/learn/3/4#section-“super”与构造方法)
-在子类中使用super调用父类中的构造方法的语法是:
+在子类中使用super调用父类中的构造方法的语法是`super()`或`super(parameter1, parameter2, ...)`
+若使用`super()`, 父类中不带传入参数列表的构造方法将会被调用。当使用带传入参数的 super关键字，则父类中具有匹配的传入参数列表的构造函数将会被调用。
 
-super();  
-或：
-
-super(parameter1, parameter2, ...）;
-若使用super();, 父类中不带传入参数列表的构造方法将会被调用。当使用带传入参数的 super关键字，例如
-
-super(parameter1, parameter2, ...);
-则父类中具有匹配的传入参数列表的构造函数将会被调用。
-
-接口
+[接口(interface)](https://coderecipe.cn/learn/3/5)
 ------
 在Java编程语言中，接口是一个引用类型，类似于一个类，它相当于是一类方法的集合（有点像抽象类）。在接口中，这些方法，就如同抽象类一样，可以是抽象的（只包含一个声明，却不包括具体实现），也可以是普通的实例方法或静态方法（包括具体方法的实现）。 也就是说，对于接口，方法体只存在于普通的实例方法或静态方法中。 接口不能被实例化 - 它们只能由类实现或由其他接口扩展。
 
