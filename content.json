@@ -21,8 +21,7 @@
       "name": "面向对象编程",
       "content": "Chapter2/Chapter2.md",
       "sections": [
-        {"name":"类和对象"},
-        {"name":"方法和参数"},
+        {"name":"类、对象、方法"},
         {"name":"引用"},
         {"name":"继承和多态"},
         {"name":"接口"}
