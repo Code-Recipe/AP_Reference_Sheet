@@ -13,8 +13,6 @@
 ------
 设计一个成功的程序需要大量的步骤，而我们需要掌握一些科学、高效的程序设计方式，来实现我们的目的。在AP考试中，我们需要掌握[瀑布模型](https://coderecipe.cn/learn/3/8#section-瀑布模型)以及[面向对象程序设计](https://coderecipe.cn/learn/3/8#section-面向对象程序设计)。
 
-
-
 ### [测试调试](https://coderecipe.cn/learn/3/8)
 ------
 在AP CS A中，我们需要掌握两种测试和调试的方法。

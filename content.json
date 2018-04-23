@@ -21,7 +21,7 @@
       "name": "面向对象编程",
       "content": "Chapter2/Chapter2.md",
       "sections": [
-        {"name":"类、对象、方法"},
+        {"name":"类、对象、属性和方法"},
         {"name":"引用"},
         {"name":"继承和多态"},
         {"name":"接口"}
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "name": "算法及分析",
+      "name": "算法及其分析",
       "content": "Chapter6/Chapter6.md",
       "sections": [
         {"name":"递归"},
