@@ -77,7 +77,7 @@ AP中我们需要知道这4条命名规则：
 5. 数组和数组列表`Array`和`ArrayList`，本教程之后会说明，也可以看[Array和ArrayList教程](https://coderecipe.cn/learn/4)。
 
 ### [`final`变量](https://coderecipe.cn/learn/2?chapter=1#section-final%E5%8F%98%E9%87%8F)
-`final`变量（final variable， 也叫用户定义常量，即user-defined constant），是只能赋值一次的特殊变量。
+`final`变量（final variable， 也叫用户定义常量，user-defined constant），是只能赋值一次，赋值以后不能再改的的特殊变量。
 
 [运算和操作符](https://coderecipe.cn/learn/2?chapter=1#section-%E8%BF%90%E7%AE%97%E5%92%8C%E6%93%8D%E4%BD%9C%E7%AC%A6)
 ------
