@@ -41,7 +41,7 @@ public class Hello {
 [Javadoc](https://coderecipe.cn/learn/3?chapter=1#section-javadoc%E6%B3%A8%E9%87%8A)是一种特殊的注释，描述函数的运行环境和效果。
 
 ### [转义](https://coderecipe.cn/learn/2#section-%E8%BD%AC%E4%B9%89)
-需要掌握以下的[转义序列(escape sequence)](https://coderecipe.cn/learn/2#section-%E8%BD%AC%E4%B9%89):
+AP中需要掌握以下的[转义序列(escape sequence)](https://coderecipe.cn/learn/2#section-%E8%BD%AC%E4%B9%89):
 | 序列 | 含义 |
 | - | - |
 | `\"` | 双引号 |
