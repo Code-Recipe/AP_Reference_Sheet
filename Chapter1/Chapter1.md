@@ -4,14 +4,16 @@
 
 🌟如果发现有不太理解的点的话，**点击蓝色的小标题或文中链接**可以跳转到教程原文哦~🌟
 
+新来的用户可以登录一下，这样就可以记录学习状态啦~
+
 输出、注释和转义
 ------
 
-### [输出](https://coderecipe.cn/learn/2#section-%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA)
+### [输出（点像我这样的蓝色字可以跳到教程原文）](https://coderecipe.cn/learn/2#section-%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA)
 AP只需要我们知道两种输出，一种是`System.out.print`一种是`System.out.println`，区别在于前者不会换行，后者会。AP输入不要求掌握，出现输入的话会专门说明。
 
 可以参考如下例子：
-#### `System.out.println`
+#### `System.out.println：`
 <lab lang="java" parameters="filename=Hello.java">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/6)查看。</notice>
 public class Hello {
@@ -22,7 +24,7 @@ public class Hello {
 }
 </lab>
 
-#### `System.out.print`
+#### `System.out.print：`
 <lab lang="java" parameters="filename=Hello.java">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/6)查看。</notice>
 public class Hello {
@@ -46,7 +48,7 @@ public class Hello {
 | `\n` | 换行 |
 | `\\` | `\`本身 |
 
-[变量和类型](https://coderecipe.cn/learn/2?chapter=1)
+[变量和类型（点像我这样的蓝色字可以跳到教程原文）](https://coderecipe.cn/learn/2?chapter=1)
 ------
 
 ### [变量](https://coderecipe.cn/learn/2?chapter=1#section-%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89%E3%80%81%E8%B5%8B%E5%80%BC%E5%92%8C%E8%AF%BB%E5%8F%96)
