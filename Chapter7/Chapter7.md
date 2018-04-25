@@ -95,6 +95,6 @@
 
 两套偶课授权选择模拟题
 
-[点击这里下载资源](https://pan.baidu.com/s/1VxGsBiGlfvWjPKzUz-kr0w) 密码: agsp
+[点击这里下载资源](https://pan.baidu.com/s/1auLK1UXQWud66FDKKfvpbg) 密码: bnhk
 
 在教程的最后，程谱祝大家今年AP门门五分😃~
