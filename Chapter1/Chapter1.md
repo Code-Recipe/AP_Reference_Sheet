@@ -48,8 +48,10 @@ AP中需要掌握以下的[转义序列(escape sequence)](https://coderecipe.cn/
 | `\n` | 换行 |
 | `\\` | `\`本身 |
 
-[变量和类型（点像我这样的蓝色字可以跳到教程原文）](https://coderecipe.cn/learn/2?chapter=1)
+[变量和类型](https://coderecipe.cn/learn/2?chapter=1)
 ------
+
+别忘了点击蓝色链接可以跳到教程原文哦~
 
 ### [变量](https://coderecipe.cn/learn/2?chapter=1#section-%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89%E3%80%81%E8%B5%8B%E5%80%BC%E5%92%8C%E8%AF%BB%E5%8F%96)
 [变量](https://coderecipe.cn/learn/2?chapter=1#section-%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89%E3%80%81%E8%B5%8B%E5%80%BC%E5%92%8C%E8%AF%BB%E5%8F%96)(variable)的定义(define)方式和初始化(initialize)方式：
@@ -217,7 +219,7 @@ for(SomeType element : collection){
 
 `continue`用于结束循环体中其后语句的执行，并跳回循环程序块的开头执行下一次循环，而不是立刻循环体。
 
-[异常（exception）](https://coderecipe.cn/learn/2?chapter=5)
+[异常](https://coderecipe.cn/learn/2?chapter=5)
 ------
 **异常**（exception）是一种Java程序在执行过程中抛出的错误情况。需要掌握的有：
 ```java

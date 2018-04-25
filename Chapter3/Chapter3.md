@@ -4,7 +4,7 @@
 
 🌟如果发现有不太理解的点的话，**点击蓝色的小标题或文中链接**可以跳转到教程原文哦~🌟
 
-### [数学类](https://coderecipe.cn/learn/2/4)
+[数学类](https://coderecipe.cn/learn/2/4)
 ------
 
 为了方便我们在Java中使用数学方法和常量，Java专门开发了java.math类。如果我们需要，可以直接调取。常数主要有e和圆周率PI两个，调用方法如下：
@@ -39,7 +39,7 @@ public class test {
 }
 </lab>
 
-### [`Object`类](https://coderecipe.cn/learn/3/6)
+[`Object`类](https://coderecipe.cn/learn/3/6)
 ------
 
 我们在继承章节中讲过，在Java中，除了最终超类：`Object`类，所有的类都有且仅有一个直接的父类（这被称为单继承）。当没有明确在程序中声明某些类所属的父类时，这些类都是最终超类：`Object`类的（隐式）子类。
@@ -58,7 +58,7 @@ public String toString()
 
 `equals()`这个方法用于判断两个对象在实际意义上（也就是对象所包含的值）是否真的相等，可以参考 [`equals()`方法](https://coderecipe.cn/learn/3/6#section-`Object`类里的方法)。
 
-### [`String`类](https://coderecipe.cn/learn/3/7)
+[`String`类](https://coderecipe.cn/learn/3/7)
 ------
 `String`是Java中特殊的一种类，它是一种引用类型，而不是原始数据类型（注意`String`类是大写字母开头的）。`String`类型的对象是字符串，也就是一系列的字符。所有`String`类型的变量, 例如`"Hello World!"`，都作为实例变量成为类的一个实例对象，这样的变量，称作字面量(literal)。一个`String`类型的字面量，包含着零个（包括0）以上的字符，字符的涵义包括双引号" "中的所有字符，包括空格与转义符。（双引号本身不属于字面量的一部分）。如下几个例子都是合法的字面量。
 
