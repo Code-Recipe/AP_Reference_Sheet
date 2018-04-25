@@ -9,7 +9,7 @@
       "name": "程序结构",
       "content": "Chapter1/Chapter1.md",
       "sections": [
-        {"name":"输出和转义"},
+        {"name":"输出、注释和转义"},
         {"name":"变量和类型"},
         {"name":"运算和操作符"},
         {"name":"判断结构"},

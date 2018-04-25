@@ -13,7 +13,7 @@ AP中我们需要掌握[类](https://coderecipe.cn/learn/3/0#section-%E4%BB%80%E
 我们还可以用过参数来告诉这个函数具体的内容，比如setSpeed(double newSpeed)这个函数就可以让我们给一个浮点参数newSpeed，让我们告诉它要设定的车的具体速度，这里的newSpeed写在函数定义里，称为形式参数（parameter），形式参数一定是要是一个合法的变量名，参数与参数用逗号隔开，每一个参数前面都需要有一个参数类型。
 
 Java的方法以如下格式呈现：
-``` java
+```java
 public/private + 可能有 static 关键字 + 返回值类型 + 方法名(形式参数列表){
   方法体
 }
