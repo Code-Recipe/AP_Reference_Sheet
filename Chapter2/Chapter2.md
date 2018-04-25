@@ -35,7 +35,9 @@ public/private + 可能有 static 关键字 + 返回值类型 + 方法名(形式
 例如：
 ```java
 public Dog(String name, String sex, int age){
-    System.out.println("My name is " + name + ", and my sex is " + sex + ". I'm " + age + " years old.");
+    System.out.println("My name is " + name + 
+        ", and my sex is " + sex + ". I'm " + 
+        age + " years old.");
 }
 ```
 就是`Dog`类的构造方法。
@@ -112,11 +114,12 @@ public abstract class Animal{
 ### [向下转型（down casting）](https://coderecipe.cn/learn/3/4#section-类型转换)
 把一个子类引用指向父类对象的转型过程，称作向下转型。
 
+在下面这个例子里，我们假设getID()方法是GradStudent类中特有的一个public实例方法，没有在Student类中被定义，GradStudent类继承自Student类。
+
 ```java
-//假设getID()方法是GradStudent类中特有的一个public实例方法，没有在Student类中被定义，GradStudent类继承自Student类。
 Student student = new GradStudent();
 GradStudent gradstudent = new GradStudent();
-int x = ((GradStudent) student).getID(); //向下转型
+int x = ((GradStudent) student).getID(); //这里用到了向下转型
 ```
 
 ### [动态绑定（dynamic bonding)](https://coderecipe.cn/learn/3/4#section-动态绑定)
