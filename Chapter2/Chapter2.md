@@ -76,22 +76,6 @@ class B extends A{
 }
 ```
 
-### [instanceof关键字](https://coderecipe.cn/learn/3/3#section-实现继承)
-我们可以通过instanceof关键字判断父类与子类是否存在继承的关系。instanceof 是 Java 的保留关键字，它的作用是测试它左边的对象是否是它右边的类的实例，或左边的类是否由继承自右边的类。用来判断哺乳动物是否是动物，狗是否是动物等，如果是那么就是真，否则就是假，instanceof关键字返回 boolean 的数据类型。
-例如：
-```java
-public class Vehicle {   
-
-}  
-
-public class Bicycle extends Vehicle{
-    public static void main(String[] args) {
-        system.out.println(Bicycle instanceof      Vehicle); // 输出结果为：ture  
-
-    }  
-}
-```
-
 ### [方法重写](https://coderecipe.cn/learn/3/3#section-方法重写)
 方法重写(Method override)指的是，如果一个类继承了其父类的方法，那么我们可以通过方法重写，用同名的方法，来"覆盖"掉所继承的父类的对应方法。相当于，在子类中我们"重新写了"一次，父类中该名称的方法，并用此方法来替代所继承的同名方法。
 
